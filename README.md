@@ -1,2 +1,2 @@
 # APPing
-Lightweight app for checking network availability
+Lightweight app for checking local network availability
