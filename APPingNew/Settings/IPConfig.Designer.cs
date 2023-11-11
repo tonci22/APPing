@@ -31,7 +31,6 @@
             this.btnOK = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.pnIPConfig = new System.Windows.Forms.Panel();
-            this.btnReset = new System.Windows.Forms.Button();
             this.ipAddressLocation11 = new APPingNew.Settings.IPAddressLocation();
             this.ipAddressLocation1 = new APPingNew.Settings.IPAddressLocation();
             this.ipAddressLocation12 = new APPingNew.Settings.IPAddressLocation();
@@ -52,6 +51,7 @@
             this.ipAddressLocation7 = new APPingNew.Settings.IPAddressLocation();
             this.ipAddressLocation20 = new APPingNew.Settings.IPAddressLocation();
             this.ipAddressLocation6 = new APPingNew.Settings.IPAddressLocation();
+            this.btnReset = new System.Windows.Forms.Button();
             this.pnIPConfig.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,7 +61,7 @@
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(75, 23);
             this.btnOK.TabIndex = 0;
-            this.btnOK.Text = "OK";
+            this.btnOK.Text = "Save";
             this.btnOK.UseVisualStyleBackColor = true;
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
@@ -102,6 +102,186 @@
             this.pnIPConfig.Size = new System.Drawing.Size(459, 453);
             this.pnIPConfig.TabIndex = 22;
             // 
+            // ipAddressLocation11
+            // 
+            this.ipAddressLocation11.GetIPAddress = "";
+            this.ipAddressLocation11.GetLocation = "";
+            this.ipAddressLocation11.Location = new System.Drawing.Point(3, 4);
+            this.ipAddressLocation11.Name = "ipAddressLocation11";
+            this.ipAddressLocation11.Size = new System.Drawing.Size(207, 39);
+            this.ipAddressLocation11.TabIndex = 21;
+            // 
+            // ipAddressLocation1
+            // 
+            this.ipAddressLocation1.GetIPAddress = "";
+            this.ipAddressLocation1.GetLocation = "";
+            this.ipAddressLocation1.Location = new System.Drawing.Point(3, 49);
+            this.ipAddressLocation1.Name = "ipAddressLocation1";
+            this.ipAddressLocation1.Size = new System.Drawing.Size(207, 39);
+            this.ipAddressLocation1.TabIndex = 2;
+            // 
+            // ipAddressLocation12
+            // 
+            this.ipAddressLocation12.GetIPAddress = "";
+            this.ipAddressLocation12.GetLocation = "";
+            this.ipAddressLocation12.Location = new System.Drawing.Point(3, 94);
+            this.ipAddressLocation12.Name = "ipAddressLocation12";
+            this.ipAddressLocation12.Size = new System.Drawing.Size(207, 39);
+            this.ipAddressLocation12.TabIndex = 20;
+            // 
+            // ipAddressLocation2
+            // 
+            this.ipAddressLocation2.GetIPAddress = "";
+            this.ipAddressLocation2.GetLocation = "";
+            this.ipAddressLocation2.Location = new System.Drawing.Point(3, 139);
+            this.ipAddressLocation2.Name = "ipAddressLocation2";
+            this.ipAddressLocation2.Size = new System.Drawing.Size(207, 39);
+            this.ipAddressLocation2.TabIndex = 3;
+            // 
+            // ipAddressLocation13
+            // 
+            this.ipAddressLocation13.GetIPAddress = "";
+            this.ipAddressLocation13.GetLocation = "";
+            this.ipAddressLocation13.Location = new System.Drawing.Point(3, 184);
+            this.ipAddressLocation13.Name = "ipAddressLocation13";
+            this.ipAddressLocation13.Size = new System.Drawing.Size(207, 39);
+            this.ipAddressLocation13.TabIndex = 19;
+            // 
+            // ipAddressLocation3
+            // 
+            this.ipAddressLocation3.GetIPAddress = "";
+            this.ipAddressLocation3.GetLocation = "";
+            this.ipAddressLocation3.Location = new System.Drawing.Point(3, 229);
+            this.ipAddressLocation3.Name = "ipAddressLocation3";
+            this.ipAddressLocation3.Size = new System.Drawing.Size(207, 39);
+            this.ipAddressLocation3.TabIndex = 4;
+            // 
+            // ipAddressLocation14
+            // 
+            this.ipAddressLocation14.GetIPAddress = "";
+            this.ipAddressLocation14.GetLocation = "";
+            this.ipAddressLocation14.Location = new System.Drawing.Point(3, 274);
+            this.ipAddressLocation14.Name = "ipAddressLocation14";
+            this.ipAddressLocation14.Size = new System.Drawing.Size(207, 39);
+            this.ipAddressLocation14.TabIndex = 18;
+            // 
+            // ipAddressLocation4
+            // 
+            this.ipAddressLocation4.GetIPAddress = "";
+            this.ipAddressLocation4.GetLocation = "";
+            this.ipAddressLocation4.Location = new System.Drawing.Point(3, 319);
+            this.ipAddressLocation4.Name = "ipAddressLocation4";
+            this.ipAddressLocation4.Size = new System.Drawing.Size(207, 39);
+            this.ipAddressLocation4.TabIndex = 5;
+            // 
+            // ipAddressLocation15
+            // 
+            this.ipAddressLocation15.GetIPAddress = "";
+            this.ipAddressLocation15.GetLocation = "";
+            this.ipAddressLocation15.Location = new System.Drawing.Point(3, 364);
+            this.ipAddressLocation15.Name = "ipAddressLocation15";
+            this.ipAddressLocation15.Size = new System.Drawing.Size(207, 39);
+            this.ipAddressLocation15.TabIndex = 17;
+            // 
+            // ipAddressLocation5
+            // 
+            this.ipAddressLocation5.GetIPAddress = "";
+            this.ipAddressLocation5.GetLocation = "";
+            this.ipAddressLocation5.Location = new System.Drawing.Point(3, 409);
+            this.ipAddressLocation5.Name = "ipAddressLocation5";
+            this.ipAddressLocation5.Size = new System.Drawing.Size(207, 39);
+            this.ipAddressLocation5.TabIndex = 6;
+            // 
+            // ipAddressLocation16
+            // 
+            this.ipAddressLocation16.GetIPAddress = "";
+            this.ipAddressLocation16.GetLocation = "";
+            this.ipAddressLocation16.Location = new System.Drawing.Point(249, 4);
+            this.ipAddressLocation16.Name = "ipAddressLocation16";
+            this.ipAddressLocation16.Size = new System.Drawing.Size(207, 39);
+            this.ipAddressLocation16.TabIndex = 16;
+            // 
+            // ipAddressLocation10
+            // 
+            this.ipAddressLocation10.GetIPAddress = "";
+            this.ipAddressLocation10.GetLocation = "";
+            this.ipAddressLocation10.Location = new System.Drawing.Point(249, 49);
+            this.ipAddressLocation10.Name = "ipAddressLocation10";
+            this.ipAddressLocation10.Size = new System.Drawing.Size(207, 39);
+            this.ipAddressLocation10.TabIndex = 7;
+            // 
+            // ipAddressLocation17
+            // 
+            this.ipAddressLocation17.GetIPAddress = "";
+            this.ipAddressLocation17.GetLocation = "";
+            this.ipAddressLocation17.Location = new System.Drawing.Point(249, 94);
+            this.ipAddressLocation17.Name = "ipAddressLocation17";
+            this.ipAddressLocation17.Size = new System.Drawing.Size(207, 39);
+            this.ipAddressLocation17.TabIndex = 15;
+            // 
+            // ipAddressLocation9
+            // 
+            this.ipAddressLocation9.GetIPAddress = "";
+            this.ipAddressLocation9.GetLocation = "";
+            this.ipAddressLocation9.Location = new System.Drawing.Point(249, 139);
+            this.ipAddressLocation9.Name = "ipAddressLocation9";
+            this.ipAddressLocation9.Size = new System.Drawing.Size(207, 39);
+            this.ipAddressLocation9.TabIndex = 8;
+            // 
+            // ipAddressLocation18
+            // 
+            this.ipAddressLocation18.GetIPAddress = "";
+            this.ipAddressLocation18.GetLocation = "";
+            this.ipAddressLocation18.Location = new System.Drawing.Point(249, 184);
+            this.ipAddressLocation18.Name = "ipAddressLocation18";
+            this.ipAddressLocation18.Size = new System.Drawing.Size(207, 39);
+            this.ipAddressLocation18.TabIndex = 14;
+            // 
+            // ipAddressLocation8
+            // 
+            this.ipAddressLocation8.GetIPAddress = "";
+            this.ipAddressLocation8.GetLocation = "";
+            this.ipAddressLocation8.Location = new System.Drawing.Point(249, 229);
+            this.ipAddressLocation8.Name = "ipAddressLocation8";
+            this.ipAddressLocation8.Size = new System.Drawing.Size(207, 39);
+            this.ipAddressLocation8.TabIndex = 9;
+            // 
+            // ipAddressLocation19
+            // 
+            this.ipAddressLocation19.GetIPAddress = "";
+            this.ipAddressLocation19.GetLocation = "";
+            this.ipAddressLocation19.Location = new System.Drawing.Point(249, 274);
+            this.ipAddressLocation19.Name = "ipAddressLocation19";
+            this.ipAddressLocation19.Size = new System.Drawing.Size(207, 39);
+            this.ipAddressLocation19.TabIndex = 13;
+            // 
+            // ipAddressLocation7
+            // 
+            this.ipAddressLocation7.GetIPAddress = "";
+            this.ipAddressLocation7.GetLocation = "";
+            this.ipAddressLocation7.Location = new System.Drawing.Point(249, 319);
+            this.ipAddressLocation7.Name = "ipAddressLocation7";
+            this.ipAddressLocation7.Size = new System.Drawing.Size(207, 39);
+            this.ipAddressLocation7.TabIndex = 10;
+            // 
+            // ipAddressLocation20
+            // 
+            this.ipAddressLocation20.GetIPAddress = "";
+            this.ipAddressLocation20.GetLocation = "";
+            this.ipAddressLocation20.Location = new System.Drawing.Point(249, 364);
+            this.ipAddressLocation20.Name = "ipAddressLocation20";
+            this.ipAddressLocation20.Size = new System.Drawing.Size(207, 39);
+            this.ipAddressLocation20.TabIndex = 12;
+            // 
+            // ipAddressLocation6
+            // 
+            this.ipAddressLocation6.GetIPAddress = "";
+            this.ipAddressLocation6.GetLocation = "";
+            this.ipAddressLocation6.Location = new System.Drawing.Point(249, 409);
+            this.ipAddressLocation6.Name = "ipAddressLocation6";
+            this.ipAddressLocation6.Size = new System.Drawing.Size(207, 39);
+            this.ipAddressLocation6.TabIndex = 11;
+            // 
             // btnReset
             // 
             this.btnReset.Location = new System.Drawing.Point(393, 474);
@@ -111,146 +291,6 @@
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = true;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
-            // 
-            // ipAddressLocation11
-            // 
-            this.ipAddressLocation11.Location = new System.Drawing.Point(3, 4);
-            this.ipAddressLocation11.Name = "ipAddressLocation11";
-            this.ipAddressLocation11.Size = new System.Drawing.Size(207, 39);
-            this.ipAddressLocation11.TabIndex = 21;
-            // 
-            // ipAddressLocation1
-            // 
-            this.ipAddressLocation1.Location = new System.Drawing.Point(249, 4);
-            this.ipAddressLocation1.Name = "ipAddressLocation1";
-            this.ipAddressLocation1.Size = new System.Drawing.Size(207, 39);
-            this.ipAddressLocation1.TabIndex = 2;
-            // 
-            // ipAddressLocation12
-            // 
-            this.ipAddressLocation12.Location = new System.Drawing.Point(3, 49);
-            this.ipAddressLocation12.Name = "ipAddressLocation12";
-            this.ipAddressLocation12.Size = new System.Drawing.Size(207, 39);
-            this.ipAddressLocation12.TabIndex = 20;
-            // 
-            // ipAddressLocation2
-            // 
-            this.ipAddressLocation2.Location = new System.Drawing.Point(249, 49);
-            this.ipAddressLocation2.Name = "ipAddressLocation2";
-            this.ipAddressLocation2.Size = new System.Drawing.Size(207, 39);
-            this.ipAddressLocation2.TabIndex = 3;
-            // 
-            // ipAddressLocation13
-            // 
-            this.ipAddressLocation13.Location = new System.Drawing.Point(3, 94);
-            this.ipAddressLocation13.Name = "ipAddressLocation13";
-            this.ipAddressLocation13.Size = new System.Drawing.Size(207, 39);
-            this.ipAddressLocation13.TabIndex = 19;
-            // 
-            // ipAddressLocation3
-            // 
-            this.ipAddressLocation3.Location = new System.Drawing.Point(249, 94);
-            this.ipAddressLocation3.Name = "ipAddressLocation3";
-            this.ipAddressLocation3.Size = new System.Drawing.Size(207, 39);
-            this.ipAddressLocation3.TabIndex = 4;
-            // 
-            // ipAddressLocation14
-            // 
-            this.ipAddressLocation14.Location = new System.Drawing.Point(3, 139);
-            this.ipAddressLocation14.Name = "ipAddressLocation14";
-            this.ipAddressLocation14.Size = new System.Drawing.Size(207, 39);
-            this.ipAddressLocation14.TabIndex = 18;
-            // 
-            // ipAddressLocation4
-            // 
-            this.ipAddressLocation4.Location = new System.Drawing.Point(249, 139);
-            this.ipAddressLocation4.Name = "ipAddressLocation4";
-            this.ipAddressLocation4.Size = new System.Drawing.Size(207, 39);
-            this.ipAddressLocation4.TabIndex = 5;
-            // 
-            // ipAddressLocation15
-            // 
-            this.ipAddressLocation15.Location = new System.Drawing.Point(3, 184);
-            this.ipAddressLocation15.Name = "ipAddressLocation15";
-            this.ipAddressLocation15.Size = new System.Drawing.Size(207, 39);
-            this.ipAddressLocation15.TabIndex = 17;
-            // 
-            // ipAddressLocation5
-            // 
-            this.ipAddressLocation5.Location = new System.Drawing.Point(249, 184);
-            this.ipAddressLocation5.Name = "ipAddressLocation5";
-            this.ipAddressLocation5.Size = new System.Drawing.Size(207, 39);
-            this.ipAddressLocation5.TabIndex = 6;
-            // 
-            // ipAddressLocation16
-            // 
-            this.ipAddressLocation16.Location = new System.Drawing.Point(3, 229);
-            this.ipAddressLocation16.Name = "ipAddressLocation16";
-            this.ipAddressLocation16.Size = new System.Drawing.Size(207, 39);
-            this.ipAddressLocation16.TabIndex = 16;
-            // 
-            // ipAddressLocation10
-            // 
-            this.ipAddressLocation10.Location = new System.Drawing.Point(249, 229);
-            this.ipAddressLocation10.Name = "ipAddressLocation10";
-            this.ipAddressLocation10.Size = new System.Drawing.Size(207, 39);
-            this.ipAddressLocation10.TabIndex = 7;
-            // 
-            // ipAddressLocation17
-            // 
-            this.ipAddressLocation17.Location = new System.Drawing.Point(3, 274);
-            this.ipAddressLocation17.Name = "ipAddressLocation17";
-            this.ipAddressLocation17.Size = new System.Drawing.Size(207, 39);
-            this.ipAddressLocation17.TabIndex = 15;
-            // 
-            // ipAddressLocation9
-            // 
-            this.ipAddressLocation9.Location = new System.Drawing.Point(249, 274);
-            this.ipAddressLocation9.Name = "ipAddressLocation9";
-            this.ipAddressLocation9.Size = new System.Drawing.Size(207, 39);
-            this.ipAddressLocation9.TabIndex = 8;
-            // 
-            // ipAddressLocation18
-            // 
-            this.ipAddressLocation18.Location = new System.Drawing.Point(3, 319);
-            this.ipAddressLocation18.Name = "ipAddressLocation18";
-            this.ipAddressLocation18.Size = new System.Drawing.Size(207, 39);
-            this.ipAddressLocation18.TabIndex = 14;
-            // 
-            // ipAddressLocation8
-            // 
-            this.ipAddressLocation8.Location = new System.Drawing.Point(249, 319);
-            this.ipAddressLocation8.Name = "ipAddressLocation8";
-            this.ipAddressLocation8.Size = new System.Drawing.Size(207, 39);
-            this.ipAddressLocation8.TabIndex = 9;
-            // 
-            // ipAddressLocation19
-            // 
-            this.ipAddressLocation19.Location = new System.Drawing.Point(3, 364);
-            this.ipAddressLocation19.Name = "ipAddressLocation19";
-            this.ipAddressLocation19.Size = new System.Drawing.Size(207, 39);
-            this.ipAddressLocation19.TabIndex = 13;
-            // 
-            // ipAddressLocation7
-            // 
-            this.ipAddressLocation7.Location = new System.Drawing.Point(249, 364);
-            this.ipAddressLocation7.Name = "ipAddressLocation7";
-            this.ipAddressLocation7.Size = new System.Drawing.Size(207, 39);
-            this.ipAddressLocation7.TabIndex = 10;
-            // 
-            // ipAddressLocation20
-            // 
-            this.ipAddressLocation20.Location = new System.Drawing.Point(3, 409);
-            this.ipAddressLocation20.Name = "ipAddressLocation20";
-            this.ipAddressLocation20.Size = new System.Drawing.Size(207, 39);
-            this.ipAddressLocation20.TabIndex = 12;
-            // 
-            // ipAddressLocation6
-            // 
-            this.ipAddressLocation6.Location = new System.Drawing.Point(249, 409);
-            this.ipAddressLocation6.Name = "ipAddressLocation6";
-            this.ipAddressLocation6.Size = new System.Drawing.Size(207, 39);
-            this.ipAddressLocation6.TabIndex = 11;
             // 
             // IPConfig
             // 
@@ -269,6 +309,7 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "IP Configuration";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.IPConfig_FormClosed);
             this.Load += new System.EventHandler(this.IPConfig_Load);
             this.pnIPConfig.ResumeLayout(false);
             this.ResumeLayout(false);

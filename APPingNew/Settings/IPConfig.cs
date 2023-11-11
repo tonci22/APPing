@@ -34,7 +34,6 @@ namespace APPingNew.Settings
             }
 
             UserSettings.WriteToFile();
-            updateIPTextBoxes();
 
             if(rightInput)
                 Close();
@@ -47,9 +46,10 @@ namespace APPingNew.Settings
 
         private void IPConfig_Load(object sender, EventArgs e)
         {
-            Location = new System.Drawing.Point(Owner.Location.X + Size.Width - 10, Location.Y);
+            Location = new System.Drawing.Point(Owner.Location.X + Owner.Size.Width, Location.Y);
+            UserSettings.LoadDataFromFile();
 
-            for (int i = 0;  i < UserSettings.IPAddressLocation.Count - 1; i++)
+            for (int i = 0;  i < UserSettings.IPAddressLocation.Count; i++)
             {
                 ((IPAddressLocation)pnIPConfig.Controls[i]).GetIPAddress = UserSettings.IPAddressLocation.ElementAt(i).Key;
                 ((IPAddressLocation)pnIPConfig.Controls[i]).GetLocation = UserSettings.IPAddressLocation.ElementAt(i).Value;
@@ -59,14 +59,13 @@ namespace APPingNew.Settings
         private void btnReset_Click(object sender, EventArgs e)
         {
             UserSettings.ResetSettings();
-            updateIPTextBoxes();
             Close();
         }
 
-        private void updateIPTextBoxes()
+        private void IPConfig_FormClosed(object sender, FormClosedEventArgs e)
         {
-            ((MainForm)Owner).FirstIPAddressText = UserSettings.IPAddressLocation.FirstOrDefault().Key;
-            ((MainForm)Owner).LastIPAddressText = UserSettings.IPAddressLocation.LastOrDefault().Key;
+            ((MainForm)Owner).FirstIPAddressText = UserSettings.FindSmallestIPAddress();
+            ((MainForm)Owner).LastIPAddressText = UserSettings.FindLargestIPAddress();
         }
     }
 }

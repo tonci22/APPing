@@ -13,7 +13,6 @@ D:\Users\Ante\Dropbox\C#\RANDOM\APPingNew\APPingNew\obj\Debug\APPingNew.csprojAs
 C:\Users\Ante\Dropbox\C#\RANDOM\APPingNew\APPingNew\bin\Debug\APPingNew.exe.config
 C:\Users\Ante\Dropbox\C#\RANDOM\APPingNew\APPingNew\bin\Debug\APPingNew.exe
 C:\Users\Ante\Dropbox\C#\RANDOM\APPingNew\APPingNew\bin\Debug\APPingNew.pdb
-C:\Users\Ante\Dropbox\C#\RANDOM\APPingNew\APPingNew\obj\Debug\APPingNew.csprojAssemblyReference.cache
 C:\Users\Ante\Dropbox\C#\RANDOM\APPingNew\APPingNew\obj\Debug\APPingNew.MainForm.resources
 C:\Users\Ante\Dropbox\C#\RANDOM\APPingNew\APPingNew\obj\Debug\APPingNew.Properties.Resources.resources
 C:\Users\Ante\Dropbox\C#\RANDOM\APPingNew\APPingNew\obj\Debug\APPingNew.Settings.IPAddressLocation.resources
@@ -34,3 +33,5 @@ D:\Users\antem\Dropbox\C#\RANDOM\APPingNew\APPingNew\obj\Debug\APPingNew.csproj.
 D:\Users\antem\Dropbox\C#\RANDOM\APPingNew\APPingNew\obj\Debug\APPingNew.csproj.CoreCompileInputs.cache
 D:\Users\antem\Dropbox\C#\RANDOM\APPingNew\APPingNew\obj\Debug\APPingNew.exe
 D:\Users\antem\Dropbox\C#\RANDOM\APPingNew\APPingNew\obj\Debug\APPingNew.pdb
+C:\Users\Ante\Dropbox\C#\RANDOM\APPingNew\APPingNew\obj\Debug\APPingNew.csproj.AssemblyReference.cache
+C:\Users\Ante\Dropbox\C#\RANDOM\APPingNew\APPingNew\obj\Debug\APPingNew.csproj.SuggestedBindingRedirects.cache

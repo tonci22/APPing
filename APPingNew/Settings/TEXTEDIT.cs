@@ -9,7 +9,7 @@ namespace APPingNew.Settings
     public static class TEXTEDIT
     {
         public static string BREAKLINES = "----------------------------------------------------------------" +
-            "-----------------------------------------------------------" + Environment.NewLine;
+            "---------------------------------------------------------------------------------------------" + Environment.NewLine;
         public static string SEPARATOR = "      |||      ";
         public static char SPLITTER = '|';
     }

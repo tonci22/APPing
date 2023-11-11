@@ -41,7 +41,7 @@
             // btnExpand
             // 
             this.btnExpand.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExpand.Location = new System.Drawing.Point(432, 12);
+            this.btnExpand.Location = new System.Drawing.Point(469, 12);
             this.btnExpand.Name = "btnExpand";
             this.btnExpand.Size = new System.Drawing.Size(23, 23);
             this.btnExpand.TabIndex = 16;
@@ -51,7 +51,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(350, 12);
+            this.btnCancel.Location = new System.Drawing.Point(372, 11);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 15;
@@ -61,16 +61,18 @@
             // 
             // txtPrintPings
             // 
-            this.txtPrintPings.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            this.txtPrintPings.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtPrintPings.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPrintPings.Location = new System.Drawing.Point(12, 43);
             this.txtPrintPings.MinimumSize = new System.Drawing.Size(356, 570);
             this.txtPrintPings.Name = "txtPrintPings";
             this.txtPrintPings.ReadOnly = true;
-            this.txtPrintPings.Size = new System.Drawing.Size(447, 601);
+            this.txtPrintPings.Size = new System.Drawing.Size(480, 601);
             this.txtPrintPings.TabIndex = 14;
             this.txtPrintPings.Text = "";
+            this.txtPrintPings.WordWrap = false;
             this.txtPrintPings.TextChanged += new System.EventHandler(this.txtPrintPings_TextChanged);
             // 
             // lblDo
@@ -109,7 +111,7 @@
             // 
             // btnPing
             // 
-            this.btnPing.Location = new System.Drawing.Point(269, 12);
+            this.btnPing.Location = new System.Drawing.Point(291, 12);
             this.btnPing.Name = "btnPing";
             this.btnPing.Size = new System.Drawing.Size(75, 23);
             this.btnPing.TabIndex = 9;
@@ -121,7 +123,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(471, 656);
+            this.ClientSize = new System.Drawing.Size(504, 656);
             this.Controls.Add(this.btnExpand);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.txtPrintPings);
@@ -131,9 +133,8 @@
             this.Controls.Add(this.txtFirstIPAddress);
             this.Controls.Add(this.btnPing);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(487, 695);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(487, 695);
+            this.MinimumSize = new System.Drawing.Size(520, 695);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Access Point Ping";

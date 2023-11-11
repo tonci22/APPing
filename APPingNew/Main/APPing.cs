@@ -14,7 +14,7 @@ namespace APPingNew
         private int ttl = 64;
         private bool dontFragment = false;
 
-        public int Timeout { get; set; } = 1000;
+        public int Timeout { get; set; } = 100;
         public string Hostname { get; set; } = "127.0.0.1";
         public PingReply PingReplyResult { get; private set; } = null;
 

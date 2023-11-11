@@ -31,8 +31,8 @@ namespace APPingNew
             txtFirstIPAddress.Enabled = false;
             txtLastIPAddress.Enabled = false;
 
-            FirstIPAddressText = UserSettings.IPAddressLocation.Keys.First();
-            LastIPAddressText = UserSettings.IPAddressLocation.Keys.LastOrDefault();
+            FirstIPAddressText = UserSettings.FindSmallestIPAddress();
+            LastIPAddressText = UserSettings.FindLargestIPAddress();
 
             enabledButtons(true);
 
@@ -101,6 +101,7 @@ namespace APPingNew
         //highlight output error
         private void printExceededMaximumIPAddress()
         {
+            txtPrintPings.AppendText(TEXTEDIT.BREAKLINES);
             txtPrintPings.SelectionBackColor = Color.Blue;
             txtPrintPings.SelectionColor = Color.White;
             txtPrintPings.AppendText(" GOTOVO " + Environment.NewLine);
